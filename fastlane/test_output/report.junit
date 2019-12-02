@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TextFieldUITests.xctest' tests='1' failures='1'>
+  <testsuite name='TextFieldUITests.TextFieldUITests' tests='1' failures='1'>
+    <testcase classname='TextFieldUITests.TextFieldUITests' name='test_example'>
+      <failure message='Failed to synthesize event: Failed to scroll to visible (by AX action) Key, label: &apos;h&apos;, error: Error kAXErrorCannotComplete performing AXAction 2003 on element AX element pid: 40850, elementOrHash.elementID: 105553167062976.93'>TextFieldUITests.swift:29</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

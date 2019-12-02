@@ -1,0 +1,28 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Test to prove it works"
+  lane :test_default_param do
+    scan(
+      reset_simulator: true,
+      disable_slide_to_type: true
+    )
+  end
+
+  desc "Test to prove it works"
+  lane :test_setting_param do
+    scan(
+      reset_simulator: true,
+      disable_slide_to_type: true
+    )
+  end
+
+  desc "Test to prove it works"
+  lane :test_which_will_fail do
+    # This test will fail, as the 'Slide to Type' prompt is shown
+    scan(
+      reset_simulator: true,
+      disable_slide_to_type: false
+    )
+  end
+end
